@@ -1,0 +1,24 @@
+*{
+    background-color: bisque;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+    align-content: center;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+img{
+    border: 5px solid black;
+}
+h1{
+    color:rgb(35, 216, 132);
+    text-align: center;
+}
